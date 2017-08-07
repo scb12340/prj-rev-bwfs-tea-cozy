@@ -1,0 +1,136 @@
+body {
+  left: 0;
+  background-color: black;
+  color: seashell;
+  font-family: helvetica;
+  padding-top: 70px;
+  z-index: 0;
+  display: block;
+}
+.header {
+  background-color: black;
+  color: seashell;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: helvetica;
+  opacity: 0.9;
+  font-size: 22px;
+  text-align: center;
+  height: 69px;
+  top: 0;
+  z-index: 10;
+}
+nav {
+  text-align: right;
+  position: relative;
+  justify-content: flex-end;
+  left: 800px;
+}
+nav a {
+  color: white;
+  text-decoration: underline;
+  flex-grow: 1;
+  padding: 20px 10px;
+  display: inline-block;
+  color: seashell;
+}
+.header img {
+height: 50px;
+padding-left: 10px;
+}
+div.mission  {
+  display: block;
+  width: 1200px;
+  height: 700px;
+  z-index: 5;
+  border: 1px solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+.mission {
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin-left: 60px;
+}
+h2 {
+  font-size: 33px;
+  font-weight: bold;
+  color: seashell;
+}
+h4 {
+  font-weight: bold;
+  font-size: 22px;
+}
+div#mission {
+  padding-top: 5px;
+margin-top: 350px;
+  background-color: black;
+  height: 120px;
+  color: seashell;
+}
+div.featured {
+  width: 1000px;
+  text-align: center;
+  display: block;
+  margin: 0px 150px;
+}
+#teas img {
+  height: 200px;
+  width: 300px;
+}
+#teas div {
+  display: inline-block;
+  flex-direction: row;
+  margin: 10px;
+}
+#places div {
+  width: 300px;
+  opacity: 1;
+  margin-right: 40px;
+  background-color: black;
+  flex-direction: row;
+  display: inline-block;
+}
+div.locations {
+  height: 500px;
+  width: 1200px;
+  display: block;
+  text-align: center;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin-left: 60px;
+}
+h3 {
+  font-weight: bold;
+  color: seashell;
+  font-size: 26px;
+  padding: 10px;
+}
+ #places p {
+  margin: 22px 0px;
+  color: seashell;
+  width: 280px;
+  width: 100%;
+  font-size: 22px;
+}
+.locations div {
+  padding-top: 21px;
+}
+div.contact {
+  height: 200px;
+  display: block;
+  text-align: center;
+  }
+  h5{
+    font-weight: bold;
+    color: seashell;
+    font-size: 18px;
+  }
+  .footer {
+    text-align: left;
+    margin-left: 20px;
+  }
